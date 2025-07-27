@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Currículo Online</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a data-target="sobre">Sobre Mim</a></li>
+                <li><a data-target="formacao">Formação</a></li>
+                <li><a data-target="portfolio">Portfólio</a></li>
+                <li><a data-target="contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre" class="content active">
+            <h2>Sobre Mim</h2>
+            <img class="foto-perfil" src="img/foto.jpg" alt="Minha Foto" />
+            <p>Sou um profissional com sólida experiência como Desenvolvedor Full Stack, atuando na criação de soluções
+                tecnológicas inovadoras em diversos setores, como indústria, comércio, meio ambiente, agricultura e
+                saúde e bem-estar. Tenho facilidade em me adaptar a diferentes contextos e demandas, sempre focando em
+                entregar produtos eficientes, escaláveis e com alto impacto.
+            </p>
+
+            <h3>Minhas Ferramentas e Tecnologias</h3>
+
+            <div class="tech-list">
+                <div class="tech-column">
+                    <h4>Linguagens</h4>
+                    <ul>
+                        <li><img src="img/js.png" alt="JavaScript"> JavaScript</li>
+                        <li><img src="img/ts.png" alt="TypeScript"> TypeScript</li>
+                        <li><img src="img/dart.png" alt="Dart"> Dart</li>
+                        <li><img src="img/csharp.png" alt="C#"> C#</li>
+                        <li><img src="img/solidity.png" alt="Solidity"> Solidity</li>
+                    </ul>
+                </div>
+
+                <div class="tech-column">
+                    <h4>Frameworks & Bibliotecas</h4>
+                    <ul>
+                        <li><img src="img/angular.png" alt="Angular"> Angular</li>
+                        <li><img src="img/nextjs.png" alt="Next.js"> Next.js</li>
+                        <li><img src="img/bootstrap.png" alt="Bootstrap"> Bootstrap 5</li>
+                        <li><img src="img/jquery.png" alt="jQuery"> jQuery</li>
+                        <li><img src="img/nodejs.png" alt="Node.js"> Node.js</li>
+                        <li><img src="img/dotnet.png" alt=".NET"> .NET</li>
+                        <li><img src="img/flutter.png" alt="Flutter"> Flutter</li>
+                    </ul>
+                </div>
+
+                <div class="tech-column">
+                    <h4>Bancos de Dados</h4>
+                    <ul>
+                        <li><img src="img/mysql.png" alt="MySQL"> MySQL (com Entity Framework Core)</li>
+                        <li><img src="img/mongodb.png" alt="MongoDB"> MongoDB</li>
+                        <li><img src="img/firebase.png" alt="Firebase"> Firebase</li>
+                    </ul>
+                </div>
+
+                <div class="tech-column">
+                    <h4>Outras Tecnologias</h4>
+                    <ul>
+                        <li><img src="img/git.png" alt="Git"> Git e GitHub (com Gitflow)</li>
+                        <li><img src="img/blockchain.png" alt="Blockchain"> Desenvolvimento Blockchain com Solidity</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="formacao" class="content">
+            <h2>Formação</h2>
+            <p>Bacharelado em Ciência da Computação - Universidade XYZ</p>
+            <p>Idiomas: Português (Nativo), Inglês (Intermediário)</p>
+        </section>
+
+        <section id="portfolio" class="content">
+            <h2>Portfólio</h2>
+            <ul>
+                <li><a href="https://github.com/seuusuario/projeto1" target="_blank">Projeto 1</a></li>
+                <li><a href="https://github.com/seuusuario/projeto2" target="_blank">Projeto 2</a></li>
+            </ul>
+        </section>
+
+        <section id="contato" class="content">
+            <h2>Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Adiel Freire de Queiroz</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
